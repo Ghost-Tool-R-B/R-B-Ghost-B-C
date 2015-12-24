@@ -11,15 +11,16 @@ using XDevkit;
 using JRPC_Client;
 using Ghost_Tool.Forms;
 using System.Diagnostics;
+using Client.ChatService;
 
 namespace Ghost_Tool
 {
-    public partial class Form1 : DevExpress.XtraEditors.XtraForm
+    public partial class Main : DevExpress.XtraEditors.XtraForm
     {
         IXboxConsole Console;
         BO2 BO2 = new BO2();
-        Chat Chat = new Chat();
-        public Form1()
+        Client.Chat Chat = new Client.Chat();
+        public Main()
         {
             InitializeComponent();
         }
@@ -64,7 +65,7 @@ namespace Ghost_Tool
 
         private void simpleButton12_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            //this.Hide();
             Chat.Show();
         }
     }

@@ -23,7 +23,7 @@ namespace Ghost_Tool
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
-            Application.Run(new Form1());
+            Application.Run(new Main());
         }
     }
 }

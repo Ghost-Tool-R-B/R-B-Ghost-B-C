@@ -1,6 +1,6 @@
 ﻿namespace Ghost_Tool
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.pictureEdit13 = new DevExpress.XtraEditors.PictureEdit();
@@ -64,8 +64,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.pictureEdit12 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
@@ -419,14 +419,6 @@
             this.labelControl3.TabIndex = 3;
             this.labelControl3.Text = "Administrators:";
             // 
-            // labelControl1
-            // 
-            this.labelControl1.Location = new System.Drawing.Point(16, 173);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(196, 13);
-            this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "Hello User, Welcome Back To Ghost Tool!";
-            // 
             // labelControl2
             // 
             this.labelControl2.Location = new System.Drawing.Point(49, 192);
@@ -434,6 +426,14 @@
             this.labelControl2.Size = new System.Drawing.Size(126, 13);
             this.labelControl2.TabIndex = 2;
             this.labelControl2.Text = "Thank you for purchasing.";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(16, 173);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(196, 13);
+            this.labelControl1.TabIndex = 1;
+            this.labelControl1.Text = "Hello User, Welcome Back To Ghost Tool!";
             // 
             // pictureEdit12
             // 
@@ -444,7 +444,7 @@
             this.pictureEdit12.Size = new System.Drawing.Size(230, 123);
             this.pictureEdit12.TabIndex = 0;
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -453,7 +453,7 @@
             this.Controls.Add(this.groupControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Ghost Tool | Main Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();

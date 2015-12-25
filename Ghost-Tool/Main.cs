@@ -33,6 +33,7 @@ namespace Ghost_Tool
         private void Form1_Load(object sender, EventArgs e)
         {
             XtraMessageBox.Show("Welcome To Ghost Tool.\nMade By Ryan Borland\nYour current version is: v1.1");
+            labelControl1.Text = "Welcome - " + Properties.Settings.Default.Username + " - To Ghost Tool.\nMade By Ryan Borland\nYour current version is: v1.1";
         }
 
         private void simpleButton6_Click(object sender, EventArgs e)

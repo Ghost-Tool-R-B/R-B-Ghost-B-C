@@ -54,6 +54,9 @@
     <Reference Include="ChatLibrary">
       <HintPath>..\..\..\..\Desktop\ChatServer\ChatLibrary\bin\Debug\ChatLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Client">
+      <HintPath>..\..\..\..\Source\Repos\Chat\Client\bin\Debug\Client.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.BonusSkins.v14.1" />
     <Reference Include="DevExpress.Data.v14.1" />
     <Reference Include="DevExpress.Office.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -217,12 +220,6 @@
     <None Include="Resources\chattttttttttt.png" />
     <None Include="Resources\chattt.png" />
     <None Include="Resources\Black_Ops_II_logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Desktop\ChatServer\Client\Client.csproj">
-      <Project>{9202a56f-ef37-4b6f-af2a-5af8a844546a}</Project>
-      <Name>Client</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
